@@ -7,4 +7,4 @@
   - name: Ensure apache is at the latest version
     ansible.builtin.yum:
       name: httpd
-      state: remove
+      state: removed
